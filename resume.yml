@@ -27,9 +27,20 @@ basics:
       #  url: https://stackoverflow.com/users/1700270/ryantuck
 
 work:
+
+  - company: Songspace
+    position: Senior Data Engineer
+    startDate: "2020"
+    highlights:
+      - Led Data Exchange team, responsible for onboarding all new record label clients onto the platform
+      - Built serverless infrastructure using lambda capable of massive parallel throughput for parsing tens of thousands of audio and image files
+      - Wrote EDI parser for standard music industry rights data format
+      - Performed complete migration and deprecation of legacy infrastructure to infrastructure-as-code for team resources
+
   - company: Warby Parker
     position: Tech Lead, Business Intelligence
     startDate: "2019-06"
+    endDate: "2020"
     highlights:
       - Acted as tech lead for a team of five BI engineers serving hundreds of corporate users
       - Defined best practices and style guide documents for SQL dimensional modeling and Looker development
@@ -39,6 +50,7 @@ work:
   - company: Warby Parker
     position: Senior Data Engineer
     startDate: "2019-01"
+    endDate: "2020"
     highlights:
       - Built lookmlint, the first open-source linter for LookML
       - Built data lineage graph and web interface to understand data flow between our hundreds of integrations and SQL builds to their corresponding Looker views and explores

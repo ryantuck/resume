@@ -69,6 +69,17 @@ WorkItem.defaultProps = {
 function Work(props) {
     return (
       <div className="work box">
+        <h2>Songspace</h2>
+        {myResume.work.filter(function(x) { return x.company === "Songspace" }).map(workItem => (
+          <WorkItem
+            key={workItem.position}
+            company={workItem.company}
+            position={workItem.position}
+            startDate={workItem.startDate}
+            endDate={workItem.endDate}
+            highlights={workItem.highlights}
+            />
+        ))}
         <h2>Warby Parker</h2>
         {myResume.work.filter(function(x) { return x.company === "Warby Parker" }).map(workItem => (
           <WorkItem
