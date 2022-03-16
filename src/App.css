@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
-}
+@import url('https://unpkg.com/purecss@2.0.3/build/pure-min.css');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Muli&family=Roboto+Mono&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media print {
+  body, .paper {
+    margin: 0;
+    box-shadow: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-size: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  background: rgb(204,204,204);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paper {
+  background: white;
+  display: grid;
+  grid-template-columns: 150mm 60mm;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  padding: 15px;
+  height: 275mm;
+  width: 215mm;
 }
+
+a {color: blue; }
+a:visited { color: blue; }
+
+* {
+  font-family: 'Muli', serif;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+}
+
+.serif {
+  font-family: 'Merriweather', serif;
+}
+
+.sans {
+  font-family: 'Muli', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Merriweather', sans-serif;
+}
+
+
+#name {
+  font-size: 60px;
+  font-family: 'Muli', sans-serif;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.left {
+  display: grid;
+  grid-template-rows: 60mm 215mm;
+  border-right: solid black 1px;
+}
+
+.right {
+  display: grid;
+  grid-template-rows: 215mm 60mm;
+}
+
+.box {
+  /* border: solid black 1px; */
+  margin: 5px;
+  padding: 5px;
+}
+
+.basics {
+}
+
+.work {
+  border-top: solid black 1px;
+}
+
+.work-item {
+}
+
+.education {
+  border-top: solid black 1px;
+}
+
+.education-item {
+}
+
+.skills {
+}
+
+.skill-item {
+}
+
+li {
+  margin: 0 0 2px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    padding: 0 10px 0 0;
+    margin: 0 0 0 -15px;
+}
+
+h2,h3 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.prof {
+  margin-right: 10px;
+}
+
+
+
+
+
