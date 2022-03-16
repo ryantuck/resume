@@ -1,0 +1,126 @@
+meta:
+  theme: Class
+
+basics:
+  name: Ryan Tuck
+  label: Technologist
+  email: ryan@ryantuck.io
+  phone: 609-315-1847
+  website: http://ryantuck.io
+  summary: |
+    I'm seeking compelling work in an environment where I can shoulder
+    responsibility and innovate. I'm equally at-home automating cloud infrastructure
+    deployment as I am collaborating with non-technical stakeholders, and
+    care deeply about the ergonomics of products I maintain. I feel most
+    alive in chaotic environments and am more than capable of delivering
+    competent and pragmatic solutions to any problem thrown my way.
+
+  profiles:
+    - network: Twitter
+      username: ryntck
+      url: https://twitter.com/ryntck
+    - network: GitHub
+      username: ryantuck
+      url: https://github.com/ryantuck
+      #- network: Stack Overflow
+      #  username: ryantuck
+      #  url: https://stackoverflow.com/users/1700270/ryantuck
+
+work:
+  - company: Warby Parker
+    position: Tech Lead, Business Intelligence
+    startDate: "2019-06"
+    highlights:
+      - Acted as tech lead for a team of five BI engineers serving hundreds of corporate users
+      - Defined best practices and style guide documents for SQL dimensional modeling and Looker development
+        #- Collaborated on development of 2020 data engineering roadmap
+      - Led design and implementation of core data model rebuilds and Looker restructure, to take advantage of consistent dimensional modeling techniques
+
+  - company: Warby Parker
+    position: Senior Data Engineer
+    startDate: "2019-01"
+    highlights:
+      - Built lookmlint, the first open-source linter for LookML
+      - Built data lineage graph and web interface to understand data flow between our hundreds of integrations and SQL builds to their corresponding Looker views and explores
+      - Mentored a promising analyst into a career as a data engineer
+
+  - company: Warby Parker
+    position: Mid-level Software Engineer
+    startDate: "2017"
+    endDate: "2018"
+    highlights:
+      - Migrated multiple complex spreadsheet workflows into robust SQL data models
+      - Built Pipes during a hackathon, a heavily-used Zapier-esque internal tool / chat bot for regularly moving data from spreadsheets to Looker and vice-versa, scaling to ~100 users and ~1000 pipes that stands to this day
+      - Built internal Jupyterlab and RStudio servers for users to avoid local setup headaches
+
+  - company: Warby Parker
+    position: Junior Software Engineer
+    startDate: "2015"
+    endDate: "2016"
+    highlights:
+      - Architected in-house python orchestration framework and managed necessary EC2 infrastructure and ansible / fabric continuous deployment
+      - Acted as sole developer for E(T)L integrations
+      - Started monthly SQL training classes, attended by roughly 100 employees over the course of two years
+
+  - company: LIT
+    position: Founder
+    startDate: "2012"
+    endDate: "2014"
+    highlights:
+      - Invented the LIT Halo, an LED headband with sophisticated audio-response, for the electronic dance music community
+      - Raised $17000 on Kickstarter in May 2014, falling short of necessary goal amount
+      - As part of a two-person team, oversaw all aspects of hardware development, PCB design and manufacturing, C++ software development, website and marketing efforts, and LLC formation
+
+
+education:
+  - institution: Northeastern University
+    area: Physics and Philosophy
+    studyType: BS
+    startDate: "2007"
+    endDate: "2012"
+
+skills:
+  - name: Data Engineering
+    level: Master
+    keywords:
+      - Python
+      - SQL
+
+  - name: AWS / GCP
+    level: God-tier
+    keywords:
+      - RDS
+      - DynamoDB
+      - Lambda
+      - EC2
+      - Fargate
+      - S3
+      - IAM
+      - API Gateway
+      - Google Cloud Storage
+
+  - name: Business Intelligence
+    level: Ninja
+    keywords:
+      - Looker
+      - Dimensional Modeling
+      - Spreadsheets
+
+  - name: Software development
+    level: Good
+    keywords:
+      - Docker
+      - CircleCI
+      - Jenkins
+      - Unix
+      - vim
+      - git
+
+  - name: Etc
+    level: 10
+    keywords:
+      - Electrical engineering
+      - Arduino
+      - Raspberry Pi
+      - React
+      - R
