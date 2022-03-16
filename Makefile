@@ -1,5 +1,7 @@
-to_json:
-		yq '.' resume.yml > resume/src/resume.json
+resume.json : resume.yml
+		cat $< | python3 cli.py | jq > $@
 
-serve:
-		cd resume && yarn start
+.PHONY : serve
+serve: resume.json
+		cp $< src
+		yarn start
